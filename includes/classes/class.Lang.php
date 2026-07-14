@@ -35,7 +35,7 @@ class Language
    public $Default   = 'es';
    public $User   = 'es';
    
-   function construct()
+   function __construct()
    {
       $this->Default   = 'es';
       $this->User      = 'es';
