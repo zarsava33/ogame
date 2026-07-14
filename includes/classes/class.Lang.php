@@ -32,8 +32,8 @@ class Language
 	  'si' => 'Slovenščina',
    );
    
-   public $Default   = '';
-   public $User   = '';
+   public $Default   = 'es';
+   public $User   = 'es';
    
    function construct()
    {
