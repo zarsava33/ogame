@@ -37,8 +37,8 @@ class Language
    
    function __construct()
    {
-      $this->Default   = DEFAULT_LANG;
-      $this->User      = DEFAULT_LANG;
+      $this->Default   = Español;
+      $this->User      = Español;
    }
    
    static function getAllowedLangs($OnlyKey = true)
